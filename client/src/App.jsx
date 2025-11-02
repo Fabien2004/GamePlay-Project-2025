@@ -1,4 +1,6 @@
 import './App.css'
+import Header from './components/header/Header'
+import Home from './components/home/Home'
 
 function App() {
 
@@ -6,8 +8,11 @@ function App() {
   return (
     <>
       <div id='box'>
-        <h1>Hello JS</h1>
+        <Header />
       </div>
+       <main id="main-content">
+        <Home />
+       </main>
     </>
    
   )
