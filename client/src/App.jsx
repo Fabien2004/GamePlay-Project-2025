@@ -1,10 +1,15 @@
 import './App.css'
 
 function App() {
-  
+
 
   return (
-    <h1>Hello JS</h1>
+    <>
+      <div id='box'>
+        <h1>Hello JS</h1>
+      </div>
+    </>
+   
   )
 }
 
