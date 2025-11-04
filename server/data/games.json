@@ -1,0 +1,18 @@
+{
+    "2caaec87-86a4-4d9c-b397-ca452726832f": {
+        "title": "Clash Royale",
+        "category": "Battle",
+        "maxLevel": "200",
+        "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRSdYtGjsTezm3dvQEf5nLt_MvTJb9tzQF1PMTQ1sdBg-slGMcv3rFYdhpDwBWwCQY6oHoB9Ux5ULO4J-OFuvGYHcXTGv1LFIESLVilqCEd&s=10",
+        "summary": "Clash Royale is a real-time multiplayer game starring the Royales, your favourite Clash® characters and much, much more. Collect and upgrade dozens of cards featuring the Clash of Clans troops, spells and defenses you know and love, as well as the Royales: Princes, Knights, Baby Dragons and more. Knock the enemy King and Princesses from their towers to defeat your opponents and win Trophies, Crowns and glory in the Arena.",
+        "_id": "2caaec87-86a4-4d9c-b397-ca452726832f"
+    },
+    "c8404c8a-f4fb-4102-80df-370cafe78e22": {
+        "title": "Clash of Clans",
+        "category": "War",
+        "maxLevel": "200",
+        "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQKdErJt_yw1DCw4z6IHK8EwhfXSl7ItkIyvwbaYzAkcaxlSpCtN2kE38J-nRGDE8QMzyavGBLLeh71Fc1JFeqkssCzlf0HTjIM8xWUAPx3Bg&s=10",
+        "summary": "Answer the call of the mustache! Join the international fray that is Clash of Clans and the Clash® universe. Customize your village, build an army and crush your opponents. Like using friendship to strike fear into your enemies? Join a Clan, or establish a Clashing legacy by creating your own. The choice is yours in this millions-strong community of Barbarians. Download for free and Clash on, Chief!",
+        "_id": "c8404c8a-f4fb-4102-80df-370cafe78e22"
+    }
+}
