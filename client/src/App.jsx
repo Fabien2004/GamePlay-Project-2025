@@ -7,6 +7,7 @@ import Register from './components/register/Regiser'
 import CatalogGame from './components/catalog-game/CatalogGame'
 import CreateGame from './components/create-game/CreateGame'
 import './App.css'
+import DetailsGame from './components/details-game/DetailsGame'
 
 function App() {
 
@@ -20,9 +21,11 @@ function App() {
         <Routes>
           <Route path='/' element={<Home />} />
           <Route path='/games' element={<CatalogGame />} />
+           <Route path='/games/:gameId/details' element={<DetailsGame />} />
           <Route path='/create' element={<CreateGame />} />
           <Route path='/login' element={<Login />} />
           <Route path='/register' element={<Register />} />
+         
         </Routes>
       </main>
     </>
