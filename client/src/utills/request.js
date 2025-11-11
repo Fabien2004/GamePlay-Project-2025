@@ -1,9 +1,9 @@
-const request = async (metod, url, data) => {
+const request = async (method, url, data) => {
     let options = {};
 
-    if(metod != 'GET'){
+    if(method != 'GET'){
      options = {
-        metod,
+        method,
     };
 }
      if(data){
