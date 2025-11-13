@@ -1,6 +1,8 @@
 import { useEffect, useState } from "react";
 import { Link, useNavigate, useParams } from "react-router";
 import gameService from "../../services/gameService";
+import CreateComments from "../../comments-create/CreateComments";
+import ShowComments from "../../comments-show/ShowComments";
 
 
 export default function DetailsGame()
@@ -38,21 +40,8 @@ const confirmClickDeleteHandler = async () => {
       <p className="text">
        {game.summary}
       </p>
-      {/* Bonus ( for Guests and Users ) */}
-      <div className="details-comments">
-        <h2>Comments:</h2>
-        <ul>
-          {/* list all comments for current game (If any) */}
-          <li className="comment">
-            <p>Content: I rate this one quite highly.</p>
-          </li>
-          <li className="comment">
-            <p>Content: The best game.</p>
-          </li>
-        </ul>
-        {/* Display paragraph: If there are no games in the database */}
-        <p className="no-comment">No comments.</p>
-      </div>
+      <ShowComments />
+     
       {/* Edit/Delete buttons ( Only for creator of this game )  */}
       <div className="buttons">
         <Link to={`/games/${gameId}/edit`} className="button">
@@ -66,21 +55,7 @@ const confirmClickDeleteHandler = async () => {
         </button>
       </div>
     </div>
-     <article className="create-comment">
-      <label>Add new comment:</label>
-      <form className="form">
-        <textarea
-          name="comment"
-          placeholder="Comment......"
-          defaultValue={""}
-        />
-        <input
-          className="btn submit"
-          type="submit"
-          defaultValue="Add Comment"
-        />
-      </form>
-    </article>
+       <CreateComments />
   </section>
   )
 }
