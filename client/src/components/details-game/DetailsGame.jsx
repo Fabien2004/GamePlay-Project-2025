@@ -1,8 +1,8 @@
 import { useEffect, useState } from "react";
 import { Link, useNavigate, useParams } from "react-router";
 import gameService from "../../services/gameService";
-import CreateComments from "../../comments-create/CreateComments";
-import ShowComments from "../../comments-show/ShowComments";
+import CreateComments from "../comments-create/CreateComments";
+import ShowComments from "../comments-show/ShowComments";
 
 
 export default function DetailsGame()
